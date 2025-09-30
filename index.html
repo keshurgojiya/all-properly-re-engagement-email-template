@@ -1,32 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AllProperly — Property Check-In</title>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet"
+    type="text/css">
   <style>
-    body { margin:0; padding:20px; font-family:Nunito, Arial, sans-serif; background:#475567; }
-    a { text-decoration:none; }
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: Nunito, Arial, sans-serif;
+      background: #475567;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
     @media only screen and (max-width:600px) {
-      .container { width:100% !important; padding:12px !important; }
-      img { max-width:100% !important; height:auto !important; }
-      .cta-button { padding:12px 20px !important; font-size:16px !important; }
+      .container {
+        width: 100% !important;
+        padding: 12px !important;
+      }
+
+      img {
+        max-width: 100% !important;
+        height: auto !important;
+      }
+
+      .cta-button {
+        padding: 12px 20px !important;
+        font-size: 16px !important;
+      }
     }
   </style>
 </head>
+
 <body>
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
     <tr>
       <td align="center">
         <!-- Container -->
-        <table role="presentation" width="650" class="container" cellpadding="0" cellspacing="0" border="0" style="max-width:650px; width:100%; background:#ffffff; border:1px solid #e4e9f0; border-radius:10px; padding:20px;">
-          
+        <table role="presentation" width="650" class="container" cellpadding="0" cellspacing="0" border="0"
+          style="max-width:650px; width:100%; background:#ffffff; border:1px solid #e4e9f0; border-radius:10px; padding:20px;">
+
           <!-- Logo -->
           <tr>
             <td align="center" style="padding:20px;">
               <a href="https://app.allproperly.com/dashboard" target="_blank">
-                <img src="images/logo.png" alt="AllProperly Logo" width="200" style="display:block; border:0; outline:none; text-decoration:none;">
+                <img src="images/logo.png" alt="AllProperly Logo" width="200"
+                  style="display:block; border:0; outline:none; text-decoration:none;">
               </a>
             </td>
           </tr>
@@ -48,7 +73,8 @@
           <!-- Hero / Seasonal Image Slot -->
           <tr>
             <td align="center" style="padding:20px;">
-              <img src="images/seasonal.png" alt="Seasonal Property Updates" width="500" style="border-radius:10px; display:block; max-width:100%; height:auto;">
+              <img src="images/seasonal.png" alt="Seasonal Property Updates" width="500"
+                style="border-radius:10px; display:block; max-width:100%; height:auto;">
             </td>
           </tr>
 
@@ -56,8 +82,8 @@
           <tr>
             <td style="color:#475567; font-size:16px; line-height:24px; padding:10px 20px 20px; text-align:left;">
               Hi <strong>{{userName}}</strong>,<br><br>
-              We noticed it’s been a little while since you last checked in on your property. 
-              A lot can change from season to season—and AllProperly is here to help you stay ahead.  
+              We noticed it’s been a little while since you last checked in on your property.
+              A lot can change from season to season—and AllProperly is here to help you stay ahead.
               Here are a few updates and reminders tailored for this time of year:
             </td>
           </tr>
@@ -66,17 +92,21 @@
           <tr>
             <td style="color:#475567; font-size:15px; line-height:22px; padding:10px 20px; text-align:left;">
               <ul style="margin:10px 0; padding-left:20px;">
-                <li style="padding-bottom: 10px;"><strong>Seasonal Maintenance:</strong> Stay on top of seasonal tasks like HVAC servicing, gutter cleaning, and winterization.</li>
-                <li style="padding-bottom: 10px;"><strong>Lease Reminders:</strong> Get notified about leases nearing renewal and tenant updates.</li>
-                <li><strong>Property Insights:</strong> See tips to improve your home health score and boost long-term value.</li>
+                <li style="padding-bottom: 10px;"><strong>Seasonal Maintenance:</strong> Stay on top of seasonal tasks
+                  like HVAC servicing, gutter cleaning, and winterization.</li>
+                <li style="padding-bottom: 10px;"><strong>Lease Reminders:</strong> Get notified about leases nearing
+                  renewal and tenant updates.</li>
+                <li><strong>Property Insights:</strong> See tips to improve your home health score and boost long-term
+                  value.</li>
               </ul>
             </td>
           </tr>
 
           <!-- CTA Button -->
           <tr>
-            <td align="center" style="padding:20px 20px 30px;">
-              <a href="https://app.allproperly.com/dashboard" target="_blank" class="cta-button" style="background:#7baa98; color:#ffffff; text-decoration:none; font-size:16px; font-weight:600; padding:12px 28px; border-radius:8px; display:inline-block;">
+            <td align="center" style="padding:10px;">
+              <a href="https://app.allproperly.com/dashboard" target="_blank" class="cta-button"
+                style="background:#7baa98; color:#ffffff; text-decoration:none; font-size:16px; font-weight:600; padding:12px 28px; border-radius:8px; display:inline-block;">
                 Go to Your Dashboard →
               </a>
             </td>
@@ -84,32 +114,50 @@
 
           <!-- Encouragement / Benefits -->
           <tr>
-            <td style="color:#475567; font-size:15px; line-height:26px; padding:0 20px 20px; text-align:left;">
-              Logging in regularly ensures you never miss an important update. 
-              With AllProperly, you’ll always know:<br><br>
-              <ul style="margin:0px 0px 10px 0px; padding-left:20px;">
-                <li>What’s due soon</li>
-                <li>How your property is performing</li>
-                <li>Where you can save time and money</li>
-              </ul>
-              <!-- What’s due soon<br>
-              How your property is performing<br>
-              Where you can save time and money<br><br> -->
-              We make it easy to protect and grow your property investment—all in one place.
+            <td style="padding:20px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"
+                style="background:#f9fcfb; border-left:4px solid #7baa98; border-radius:8px;">
+                <tbody>
+                  <tr>
+                    <td>
+                      <div style="padding:15px 18px; font-size:14px; color:#475567;">
+                        Logging in regularly ensures you never miss an important update. With AllProperly, you’ll always
+                        know:
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="padding:0px 18px; font-size:14px; color:#475567; line-height:22px;">
+                      <ul style="margin:0; padding-left:20px;">
+                        <li style="margin-bottom:5px;">What’s due soon</li>
+                        <li style="margin-bottom:5px;">How your property is performing</li>
+                        <li>Where you can save time and money</li>
+                      </ul>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div style="padding:15px 18px; font-size:14px; color:#475567;">
+                        We make it easy to protect and grow your property investment—all in one place.
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
             </td>
           </tr>
 
           <!-- Secondary CTA -->
           <tr>
-            <td align="center" style="padding:10px 20px 30px;">
-              <a href="https://app.allproperly.com/dashboard" target="_blank" style="background:#7baa98; color:#ffffff; text-decoration:none; font-size:16px; font-weight:600; padding:12px 28px; border-radius:8px; display:inline-block;">
+            <td align="center" style="padding:12px;">
+              <a href="https://app.allproperly.com/dashboard" target="_blank"
+                style="background:#7baa98; color:#ffffff; text-decoration:none; font-size:16px; font-weight:600; padding:12px 28px; border-radius:8px; display:inline-block;">
                 Log in now and get a fresh update →
               </a>
             </td>
           </tr>
 
           <!-- Footer -->
-           <tr>
+          <tr>
             <td align="center" style="color:#475567; font-size:14px; line-height:22px; padding:20px;">
               You’re receiving this email because you signed up for AllProperly.com
             </td>
@@ -127,4 +175,5 @@
     </tr>
   </table>
 </body>
+
 </html>
